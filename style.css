@@ -162,6 +162,7 @@ h2{
     width: 90%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    border-radius: var(--border-radius);
 }
 
 .nfts{
@@ -176,6 +177,24 @@ h2{
     padding-bottom: 1rem;
 }
 
+.return img{
+    width: 2rem;
+}
+.return{
+    padding-right: 1rem;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+    top : 93%;
+}
+
+.return div{
+    text-align: center;
+    width: 6rem;
+}
 
 /********** footer **********/
 
