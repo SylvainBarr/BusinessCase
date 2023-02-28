@@ -1,0 +1,195 @@
+/************** Google fonts **************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/************** Variables ***************/
+:root {
+    /*** colors ***/
+    --black : rgb(0, 0, 0);
+    --background : rgba(255, 255, 225, 0.979);
+    /*** gradient ***/
+    --mygradient : linear-gradient(257.02deg, #FB8C36 15.46%, #FFDB5B 82.75%);
+    --textgradient : linear-gradient(180deg, #B3B3B3 0%, #171717 100%);
+    --textover : linear-gradient(180deg, #171717 100%, #B3B3B3 0%);
+    /*** fonts ***/
+    --fontmain : 'Roboto', sans-serif;
+    /*** border-radius ***/
+    --border-radius : 1rem ;
+    drop-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*** Bases ***/
+
+html, body{
+    font-family: var(--fontmain);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--fontmain);
+}
+
+a{
+    text-decoration: none;
+    background: var(--textgradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    background: var(--textover);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/********* Header *********/
+
+header{
+    position: sticky;
+    top: 0;
+    height: 7rem;
+    background: var(--mygradient);
+    align-items: center;
+}
+
+header a img {
+    height: 7rem;
+    float: left;
+}
+
+h1{
+    display: none;
+}
+
+.burger{
+    height: 4rem;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+nav:target{
+    visibility: visible ;
+}
+
+header ul{
+    margin: 0;
+}
+
+nav{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 18rem;
+    background: var(--mygradient);
+    height: 100%;
+}
+
+.nav1{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav1 li{
+    margin-bottom: 2rem;
+}
+
+nav .cross{
+    float: right;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav2{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.nav2 ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/********* Main *********/
+
+#logo{
+    display: block;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentation p{
+    text-align: center;
+}
+
+.presentation{
+    margin-bottom: 8rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.caroussel{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--mygradient);
+    width: 90%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nfts{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nfts img{
+    padding-bottom: 1rem;
+}
+
+
+/********** footer **********/
+
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--mygradient);
+    height: 4rem;
+}
+
+footer img{
+    display: inline-block;
+    height: 2rem;
+}

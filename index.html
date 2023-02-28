@@ -14,12 +14,13 @@
     <header>
         <a href="index.html"><img src="assets/img/logo_transparent.png" alt="Logo du site de NFT de Tatty Josy"></a>
         <h1>Tatty Josy</h1>
-        <img src="assets/img/burger.svg" alt="Bouton d'affichage du menu de navigation">
+        <a href="#navig"><img class="burger" src="assets/img/burger.svg" alt="Bouton d'affichage du menu de navigation"></a>
 
         <!-- Nav qui sera masquée tant qu'on ne clique pas sur le bouton de menu -->
-        <nav>
+        <nav id="navig">
+            <a href="#" class="cross">&times;</a>
             <div>
-                <ul>
+                <ul class="nav1">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="galery.html">Notre Galerie</a></li>
                     <li><a href="mygalery.html">Mes NFT</a></li>
@@ -28,7 +29,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="nav2">
                 <ul>
                     <li><a href="inscrip.html">Inscription</a></li>
                     <li><a href="connexion.html">Connexion</a></li>
@@ -56,7 +57,7 @@
                 <div>
                     <img src="assets/img/caroussel_nav_left.svg" alt="bouton sdéfilement gauche">
                 </div>   
-                <div>
+                <div class="nfts">
                     <img src="assets/img/nft/nft1.png" alt="Un NFT">
                     <img src="assets/img/nft/nft2.png" alt="Un NFT">
                     <img src="assets/img/nft/nft3.png" alt="Un NFT">
@@ -78,7 +79,7 @@
     <!-- Footer à reprendre sur toutes les pages -->
     <footer>
         <img src="assets/img/favicon.png" alt="Logo du site de NFT de Tatty Josy">
-        <p>Tous droits réservés &copy; Tatty Josy / 2023</p>
+        <span>Tous droits réservés &copy; Tatty Josy / 2023</span>
     </footer>
 </body>
 </html>
