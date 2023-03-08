@@ -1,0 +1,29 @@
+{
+  "name": "business-case",
+  "version": "0.0.1",
+  "description": "business case de sylvain barrellon",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./app/sass/main.scss ./public/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylvainBarr/BusinessCase.git"
+  },
+  "keywords": [
+    "business",
+    "case",
+    "nft",
+    "formation"
+  ],
+  "author": "sylvain barrellon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SylvainBarr/BusinessCase/issues"
+  },
+  "homepage": "https://github.com/SylvainBarr/BusinessCase#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.3"
+  }
+}

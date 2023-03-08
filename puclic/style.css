@@ -54,9 +54,10 @@ ul{
 header{
     position: sticky;
     top: 0;
-    height: 7rem;
+    height: 6rem;
     background: var(--mygradient);
     align-items: center;
+    z-index: 5;
 }
 
 header a img {
@@ -134,6 +135,7 @@ nav .cross{
 
 /********* Main *********/
 
+
 #logo{
     display: block;
     height: 30rem;
@@ -146,8 +148,10 @@ nav .cross{
 }
 
 .presentation{
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
+
+
 
 h2{
     text-align: center;
@@ -165,6 +169,7 @@ h2{
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-radius: var(--border-radius);
+    position: relative;
 }
 
 .nfts{
@@ -177,10 +182,45 @@ h2{
 
 .nfts img{
     padding-bottom: 1rem;
+    width: 16rem;
 }
 
-.scroller img{
+.carbutton{
     cursor: pointer;
+}
+
+.vinyles{
+    transition: all 1s ease-in-out;
+}
+
+.vin1, .vin2, .vin3{
+    position: absolute;
+    right: 2rem;
+    bottom: 2.5rem;
+    height: 50rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.vinyles img{
+    padding-bottom: 1rem;
+    width: 15rem;
+}
+
+.vin1{
+    transform: translate(-43rem, 0);
+}
+
+.vin2{
+    transform: translate(-26.5rem, 0);
+}
+
+.vin3{
+    transform: translate(-10rem, 0);
 }
 
 .return img{
@@ -194,7 +234,7 @@ h2{
     justify-content: center;
 	align-items: flex-end;
 	align-content: center;
-    top : 93%;
+    top : 91%;
 }
 
 .return div{
@@ -217,4 +257,37 @@ footer{
 footer img{
     display: inline-block;
     height: 2rem;
+}
+
+/********** Formulaire, page de contact **********/
+
+fieldset{
+    border: transparent;
+}
+
+form{
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 50%;
+    background: var(--mygradient);
+    margin-right: auto;
+    margin-left: auto;
+}
+form div{
+    margin-top: 1rem;
+}
+
+label{
+    display: block;
+}
+legend{
+    margin-bottom: 1rem;
+}
+.text{
+    width: 15rem;
+}
+textarea{
+    resize: none;
+    width: 30rem;
+    height: 5rem;
 }
