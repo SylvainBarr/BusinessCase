@@ -1,0 +1,55 @@
+nav:target{
+    visibility: visible ;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 18rem;
+    background: $mygradient;
+    height: 100%;
+}
+
+.nav1{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav1 li{
+    margin-bottom: 2rem;
+}
+
+nav .cross{
+    float: right;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+}
+
+.nav2{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.nav2 ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.here{
+    background: $background;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

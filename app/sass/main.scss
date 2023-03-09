@@ -1,1 +1,14 @@
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+
+@import 'variables';
+@import 'base';
+@import 'layout/header';
+@import 'components/burger';
+@import 'components/nav';
+@import 'components/logo';
+@import 'layout/body';
+@import 'components/caroussel';
+@import 'components/return';
+@import 'components/footer';
+@import 'layout/contact';
+

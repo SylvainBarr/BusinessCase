@@ -1,0 +1,30 @@
+.return img{
+    width: 2rem;
+}
+.return{
+    padding-right: 1rem;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+    top : 91%;
+}
+
+.return div{
+    text-align: center;
+    width: 6rem;
+}
+
+@media screen and (max-width:970px){
+    .return img{
+        width: 1rem;
+    }
+}
+
+@media screen and (max-width:770px){
+    .return{
+        padding-right: 0;
+    }
+}

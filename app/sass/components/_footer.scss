@@ -1,0 +1,14 @@
+footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: $mygradient;
+    height: 4rem;
+}
+
+footer img{
+    display: inline-block;
+    height: 2rem;
+}

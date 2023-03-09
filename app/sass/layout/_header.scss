@@ -1,0 +1,31 @@
+header{
+    position: sticky;
+    top: 0;
+    height: 6rem;
+    background: $mygradient;
+    align-items: center;
+    z-index: 5;
+
+    a img {
+        height: 6rem;
+        float: left;
+        margin-left: 1rem;
+    }
+
+    h1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:770px){
+    header{
+        height: 3rem;
+
+        a img{
+            height: 3rem;
+        }
+    }
+
+    
+}

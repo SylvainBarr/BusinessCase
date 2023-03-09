@@ -1,0 +1,15 @@
+.burger{
+    height: 4rem;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:770px){
+    .burger{
+        height: 2.5rem;
+        margin-top: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
