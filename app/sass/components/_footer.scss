@@ -7,9 +7,18 @@ footer{
     background: $mygradient;
     height: 4rem;
     color: $background;
-}
 
-footer img{
-    display: inline-block;
-    height: 2rem;
+    img{
+        display: inline-block;
+        height: 2rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: $background;
+
+        &:hover{
+            color: $font-color-main;
+        }
+    }
 }

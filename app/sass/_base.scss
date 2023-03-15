@@ -12,24 +12,14 @@ h1, h2, h3, h4, h5, h6{
     font-family: $fontheadings;
 }
 
-a{
-    text-decoration: none;
-    background: $textgradient;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-a:hover {
-    text-decoration: none;
-    background: $texthover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 ul{
     list-style-type: none;
 }
 
 h3{
     font-family: 'Titlefont', cursive;
+    -webkit-text-stroke: 2px $font-color-main;
+    background: $mygradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

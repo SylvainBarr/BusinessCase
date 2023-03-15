@@ -1,4 +1,5 @@
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 
 @font-face {
@@ -10,10 +11,10 @@
 $font-color-main : rgb(212, 211, 211);
 $background : rgba(42, 42, 42, 0.979);
     /*** gradient ***/
-$mygradient : linear-gradient(200deg, #ddbf53, #a5947a 82%);
+$mygradient : linear-gradient(200deg, #dea349, #a5947a 82%);
 $testgradient : linear-gradient(257.02deg, #FB8C36 15.46%, #FFDB5B 82.75%);
-$textgradient : linear-gradient(180deg, #707070 0%, #050505 100%);
-$texthover : linear-gradient(180deg, #555454 100%, #c9c9c9 0%);
+$textgradient : linear-gradient(190deg, #707070 , #050505 82%);
+$texthover : linear-gradient(180deg, #363636, #9c9c9c 100%);
     /*** fonts ***/
 $fontmain : 'Roboto', sans-serif;
 $fontheadings : 'Permanent Marker', cursive;
