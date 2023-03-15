@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
 
     /*** colors ***/
-$black : rgb(0, 0, 0);
-$background : rgba(255, 255, 225, 0.979);
+$font-color-main : rgb(212, 211, 211);
+$background : rgba(42, 42, 42, 0.979);
     /*** gradient ***/
-$mygradient : linear-gradient(257.02deg, #FB8C36 15.46%, #FFDB5B 82.75%);
-$testgradient : lineat-gradient(257deg #fed136 #615645 82%);
-$textgradient : linear-gradient(180deg, #B3B3B3 0%, #171717 100%);
-$textover : linear-gradient(180deg, #171717 100%, #B3B3B3 0%);
+$mygradient : linear-gradient(257deg, #ddbf53, #a5947a 82%);
+$testgradient : linear-gradient(257.02deg, #FB8C36 15.46%, #FFDB5B 82.75%);
+$textgradient : linear-gradient(180deg, #707070 0%, #050505 100%);
+$texthover : linear-gradient(180deg, #555454 100%, #c9c9c9 0%);
     /*** fonts ***/
 $fontmain : 'Roboto', sans-serif;
 $fontheadings : 'Permanent Marker', cursive;
     /*** border-radius ***/
 $border-radius : 1rem ;
-$box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+$box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.265);

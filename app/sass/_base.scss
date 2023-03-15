@@ -4,7 +4,7 @@ html, body{
     padding: 0;
     font-size: 16px;
     font-weight: 400;
-    color: $black;
+    color: $font-color-main;
     background-color: $background;
 }
 
@@ -21,7 +21,7 @@ a{
 
 a:hover {
     text-decoration: none;
-    background: $textover;
+    background: $texthover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
