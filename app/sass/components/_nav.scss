@@ -1,19 +1,12 @@
-nav:target{
-    visibility: visible ;
-}
 
-nav ul{
-    margin: 0;
-}
 
-nav{
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 18rem;
+.offcanvas{
     background: $mygradient;
-    height: 100%;
+
+}
+
+.offcanvas-header h5{
+    visibility: hidden;
 }
 
 .nav1{
