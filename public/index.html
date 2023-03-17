@@ -8,6 +8,8 @@
     <title>Burn Your Crypto</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="js/vinyleanim.js" defer></script>
 </head>
 
 <body>
@@ -82,16 +84,22 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="nfts">
-                        <div><img src="assets/img/nft/disturbed-tenthousandfists.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/trivium-ascendancy.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/disturbed-immortalized.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/disturbed-divisive.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/bfmv-handofblood.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/bfmv-screamaimfire.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/bfmv-tempertemper.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/bfmv-thepoison.jpg" alt="Un NFT"></div>
-                        <div><img src="assets/img/nft/trivium-thecrusade.jpg" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/disturbed-tenthousandfists.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/trivium-ascendancy.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/disturbed-immortalized.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/disturbed-divisive.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/bfmv-handofblood.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/bfmv-screamaimfire.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/bfmv-tempertemper.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/bfmv-thepoison.jpg" class="cover" alt="Un NFT"></div>
+                        <div><img src="assets/img/nft/trivium-thecrusade.jpg" class="cover" alt="Un NFT"></div>
+                        <div class="vinyles">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                        </div>
                     </div>
+                    
                   </div>
                   <div class="carousel-item">
                     <div class="nfts">
@@ -104,6 +112,11 @@
                         <div><img src="assets/img/nft/disturbed-divisive.jpg" alt="Un NFT"></div>
                         <div><img src="assets/img/nft/bfmv-thepoison.jpg" alt="Un NFT"></div>
                         <div><img src="assets/img/nft/bfmv-tempertemper.jpg" alt="Un NFT"></div>
+                        <div class="vinyles">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                        </div>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -117,14 +130,19 @@
                         <div><img src="assets/img/nft/bfmv-tempertemper.jpg" alt="Un NFT"></div>
                         <div><img src="assets/img/nft/bfmv-thepoison.jpg" alt="Un NFT"></div>
                         <div><img src="assets/img/nft/trivium-thecrusade.jpg" alt="Un NFT"></div>
+                        <div class="vinyles">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                          <img class="vinyle" src="assets/img/utiles/Vinyle.png" alt="Un vinyle">
+                        </div>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carroussel-index" data-bs-slide="prev">
+                <button onclick="animation.play(anime())" class="carousel-control-prev" type="button" data-bs-target="#carroussel-index" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carroussel-index" data-bs-slide="next">
+                <button onclick="animation.play(anime())" class="carousel-control-next" type="button" data-bs-target="#carroussel-index" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -176,6 +194,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
