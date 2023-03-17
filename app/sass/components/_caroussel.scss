@@ -76,11 +76,3 @@
     }
 
   }
-
-.carousel-item{
-    visibility: hidden;
-
-    &.active{
-        visibility: visible;
-    }
-}
