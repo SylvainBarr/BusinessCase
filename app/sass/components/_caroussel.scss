@@ -17,7 +17,7 @@
 
         @media screen and (max-width:770px){
             width: 48%;
-            &:nth-child(2n+0), &:last-child{
+            &:nth-child(2n+0), &:last-child, &:nth-child(9){
                 display: none;
             }
         }
@@ -70,6 +70,11 @@
   .carousel-item-next.carousel-item-start,
   .carousel-item-prev.carousel-item-end{
     transition-delay: 2.4s;
+
+    @media screen and (max-width:770px){
+        transition-delay: 0s;
+    }
+
   }
 
 .carousel-item{

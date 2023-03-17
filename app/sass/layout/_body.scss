@@ -6,6 +6,12 @@
     margin-right: auto;
     text-align: center;
     font-size: 1.3rem;
+
+    .presentation-head{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+    }
 }
 
 h2{

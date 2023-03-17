@@ -1,4 +1,4 @@
-var animation = anime({
+let animation = anime({
     targets: '.vinyle',
     translateX: 150,
     rotate: '1turn',
