@@ -11,7 +11,7 @@
     .rythm-bar{
         width: 1rem;
         background: $mygradient;
-        height: .1rem;
+        transition: all ease-in .05s;
     }
 }
 @media screen and (max-width:770px){
