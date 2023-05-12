@@ -7,13 +7,12 @@
     <title>Nous contacter</title>
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 
     <!-- Header du site qui restera identique sur les différentes pages -->
     <header>
-        <a href="index.html"><img src="assets/img/logo-businesscase.webp" alt="Logo du site de NFT de Tatty Josy"></a>
+        <a href="index.php"><img src="assets/img/logo-businesscase.webp" alt="Logo du site de NFT de Tatty Josy"></a>
         <h1>B-Y-C</h1>
         <button class="btn btn-outline-dark bouton-menu" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#menu-slide" aria-controls="menu-slide">
@@ -32,15 +31,15 @@
             </div>
             <div class="offcanvas-body">
                 <ul class="nav1">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="galery.html">Notre Galerie</a></li>
-                    <li><a href="mygalery.html">Mes NFT</a></li>
-                    <li><a href="about.html" class="here">A propos</a></li>
-                    <li><a href="contact.html">Nous contacter</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="galery.php">Notre Galerie</a></li>
+                    <li><a href="mygalery.php">Mes NFT</a></li>
+                    <li><a href="about.php">A propos</a></li>
+                    <li><a href="contact.php" class="here">Nous contacter</a></li>
                 </ul>
                 <div class="nav2">
                     <ul>
-                        <li><a href="inscrip.html" class="btn btn-outline-dark">Inscription</a></li>
+                        <li><a href="inscrip.php" class="btn btn-outline-dark">Inscription</a></li>
                         <li>
                             <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#Connexion-backdrop">Connexion
                             </button>
@@ -56,15 +55,40 @@
 
     <!-- Corps de la page -->
     <main>
-
         
+        <form class="contactez-nous" action="#" method="post">
+            <h2>Contact</h2>
+            <fieldset>
+                <legend>Une remarque ? Une suggestion ? N'hésitez pas à m'écrire.</legend>
+                <div>
+                    <label for="lastname">Votre nom : (obligatoire)</label>
+                    <input type="text" id="lastname" name="lastname" required class="text">
+                </div>
+                <div>
+                    <label for="mail">Votre e-mail : (obligatoire)</label>
+                    <input type="email" id="mail" name="email" required class="text">
+                </div>
+                <div>
+                    <label for="telepone">Votre téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" class="text">
+                </div>
+                <div>
+                    <label for="message">Votre message :</label>
+                    <textarea id="message" name="message"placeholder="Saisissez votre message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+            </fieldset>
+
+        </form>
 
     </main>
 
     <!-- Footer à reprendre sur toutes les pages -->
     <footer>
         <img src="assets/img/favicon.png" alt="Logo du site de NFT de Tatty Josy">
-        <span>Tous droits réservés &copy; <a href="index.html">Burn Your Crypto</a> / 2023</span>
+        <span>Tous droits réservés &copy; <a href="index.php">Burn Your Crypto</a> / 2023</span>
     </footer>
 
 
