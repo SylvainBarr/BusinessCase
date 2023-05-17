@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="js/vinyleanim.js" defer></script>
+    <script src="js/title.js" defer></script>
     <!-- <script src="js/rythm.js" defer></script> -->
 </head>
 
@@ -18,7 +19,7 @@
     <!-- Header du site qui restera identique sur les différentes pages -->
     <header>
         <a href="index.php"><img src="assets/img/logo-businesscase.webp" alt="Logo du site de NFT de Tatty Josy"></a>
-        <h1>B-Y-C</h1>
+        <h1 class = "short display-5">B<span class="display-6">urn </span>Y<span class="display-6">our </span>C<span class="display-6">rypto</span></h1>
         <button class="btn btn-outline-dark bouton-menu" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#menu-slide" aria-controls="menu-slide">
             <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
@@ -81,7 +82,7 @@
                 <div class="rythm-bar rythm-bar-10"></div>
               </div>
             </div>
-            <h3 class="display-2">Burn Your Crypto</h3>
+            <h3 class="display-2 main-title">Burn Your Crypto</h3>
             <br>
             <p>Amateurs de NFT et de métal, bienvenue sur Burn Your Crypto. <br> Tatty Josy, grande fan de métal a
                 décidé de se lancer dans l'aventure des NFT. Ici, vous pourrez afficher, consulter et suivre le cours des NFT
@@ -95,7 +96,7 @@
         <!-- Section affichant les derniers NFT ajoutés sur le site -->
 
         <section>
-            <h2>Les derniers ajouts</h2>
+            <h2 id="last">Les derniers ajouts</h2>
 
             <div id="carroussel-index" class="carousel slide">
                 <div class="carousel-inner">
