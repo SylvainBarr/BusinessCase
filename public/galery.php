@@ -63,16 +63,19 @@
       <form id = 'search-menu'>
         <div class="search-form">
           <input class="search-bar" type="text" value="" />
-          <input class="search-submit" type="submit" value="" />
+          <input class="search-submit" type="submit" value=""/>
         </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Trier par ...</option>
-            <option value="1">Groupe</option>
-            <option value="2">Style</option>
-            <option value="3">Prix d'achat</option>
-            <option value="4">Date de sortie</option>
-
-          </select>
+          <p class="tri">
+            <select class="form-select" aria-label="Default select example">
+              <option value="0" selected>Date d'ajout</option>
+              <option value="1">Groupe</option>
+              <option value="2">Style</option>
+              <option value="3">Prix d'achat</option>
+              <option value="4">Date de sortie</option>
+            
+            </select>
+            <span> &nbsp;Trier par :</span>
+          </p>
       </form>
 
 
